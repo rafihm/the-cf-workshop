@@ -1,0 +1,17 @@
+[
+  {
+    "ParameterKey": "RepositoryName",
+    "ParameterValue": "the-cf-workshop"
+    // replace with the name of the repository on Github containing the templates to deploy
+  },
+  {
+    "ParameterKey": "RepositoryOwner",
+    "ParameterValue": "rafihm"
+    // replace with the owner of the repository on Github containing the templates to deploy
+  },
+  {
+    "ParameterKey": "GithubAccessToken",
+    "ParameterValue": "2e7fd24a9d92b7c0185c191fc067a17acfa2ce41"
+    // replace with a personal access token from your account on Github
+  }
+]

@@ -33,6 +33,9 @@ Resources:
                     !Sub | 
                     #!/bin/bash -xe
                     yum install -y aws-cfn-bootstrap
-                    /opt/aws/bin/cfn-init -s ${AWS::StackId} -r webserver -
+                    /opt/aws/bin/cfn-init -s ${AWS::StackId} -r webserver
+    Outputs:
+        webserverIPAddress:
+            Value: !Sub ${webServer.PublicIp}
                     
                 
